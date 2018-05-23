@@ -1,13 +1,21 @@
-# smappi
+Smappi Common Library
+----------------------
 
-For install Smappi SDK:
+For install Smappi CL:
 
-    npm install -g smappi
+    npm install smappi-cl
 
-Usage:
+Example of usage:
 
-    # run in terminal
-    smappi run localhost:8000
-    
-    # test of work
-    curl http://localhost:8000/greeting?args=EXAMPLE
+```
+    const { jquery, request, DOM, logger: console } = require('smappi');
+
+    function example (URL) {
+        let $ = jquery(DOM(request.get(URL).content));
+        $('div[class~="item"]').each(function () {
+            console.log('ITEM', $(this));
+        });
+    }
+
+    module.exports = { example }
+```
