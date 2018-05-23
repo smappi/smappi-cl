@@ -10,14 +10,14 @@ npm install smappi-cl
 Example of usage:
 
 ```javascript
-    const { jquery, request, DOM, logger: console } = require('smappi');
+const { jquery, request, DOM, logger: console } = require('smappi');
 
-    function example (URL) {
-        let $ = jquery(DOM(request.get(URL).content));
-        $('div[class~="item"]').each(function () {
-            console.log('ITEM', $(this));
-        });
-    }
+function example (URL) {
+    let $ = jquery(DOM(request.get(URL).content));
+    $('div[class~="item"]').each(function () {
+        console.log('ITEM', $(this));
+    });
+}
 
-    module.exports = { example }
+module.exports = { example }
 ```
