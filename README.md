@@ -1,21 +1,23 @@
 Smappi Common Library
 ----------------------
 
-For install Smappi CL:
+Installation of Smappi CL:
 
-    npm install smappi-cl
+```bash
+npm install smappi-cl
+```
 
 Example of usage:
 
-```
-    const { jquery, request, DOM, logger: console } = require('smappi');
+```javascript
+const { jquery, request, DOM, logger: console } = require('smappi-cl');
 
-    function example (URL) {
-        let $ = jquery(DOM(request.get(URL).content));
-        $('div[class~="item"]').each(function () {
-            console.log('ITEM', $(this));
-        });
-    }
+function example (URL) {
+    let $ = jquery(DOM(request.get(URL).content));
+    $('div[class~="item"]').each(function () {
+        console.log('ITEM', $(this));
+    });
+}
 
-    module.exports = { example }
+module.exports = { example }
 ```
