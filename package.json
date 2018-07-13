@@ -36,5 +36,5 @@
         "url": "git+ssh://git@github.com/smappi/smappi-cl.git"
     },
     "scripts": {},
-    "version": "0.5.3"
+    "version": "0.5.4"
 }
