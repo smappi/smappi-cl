@@ -1,6 +1,9 @@
 Smappi Common Library
 ----------------------
 
+[![travis](https://secure.travis-ci.org/smappi/smappi.png)](http://travis-ci.org/smappi/smappi)
+
+
 Installation of Smappi CL:
 
 ```bash
