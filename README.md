@@ -4,7 +4,7 @@ Smappi Common Library
 [![travis](https://secure.travis-ci.org/smappi/smappi.png)](http://travis-ci.org/smappi/smappi)
 
 
-Installation of Smappi CL:
+Installation of [Smappi](https://smappi.org/) CL:
 
 ```bash
 npm install smappi-cl
