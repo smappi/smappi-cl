@@ -7,6 +7,8 @@ Smappi Common Library
 Installation of [Smappi](https://smappi.org/) CL:
 
 ```bash
+yarn add smappi-cl
+# or
 npm install smappi-cl
 ```
 
