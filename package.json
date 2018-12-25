@@ -16,7 +16,8 @@
         "log4js": "^3.0.6",
         "@log4js-node/logstash-http": "^1.0.0",
         "tap": "^12.0.1",
-        "socks-proxy-agent": "^4.0.1"
+        "proxy-agent": "^3.0.3",
+        "dns-sync": "^0.1.3"
     },
     "deprecated": false,
     "engines": {
